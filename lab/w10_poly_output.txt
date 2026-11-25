@@ -1,0 +1,11 @@
+degree | train MAE | CV MAE  (MW)
+  1    |  4.27    |  4.28
+  2    |  4.08    |  4.08
+  3    |  3.95    |  3.96
+  4    |  3.95    |  3.95
+  5    |  3.95    |  3.95
+  6    |  3.95    |  3.96
+
+chosen degree (lowest CV MAE): 4
+test MAE, degree 4: 3.99 MW
+baseline test MAE (training mean): 14.72 MW

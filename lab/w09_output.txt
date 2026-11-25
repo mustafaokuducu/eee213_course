@@ -1,0 +1,24 @@
+=== Section 3: data quality ===
+rows: 9568  columns: 5
+missing values: 0
+exact duplicate rows: 41
+AT: min 1.81  max 37.11 degC
+V: min 25.36  max 81.56 cm Hg
+AP: min 992.89  max 1033.30 mbar
+RH: min 25.56  max 100.16 %
+PE: min 420.26  max 495.76 MW
+
+=== Section 4: statistics (all rows) ===
+AT: mean 19.65  median 20.34  std 7.45 degC
+PE: mean 454.37  median 451.55  std 17.07 MW
+r(AT, PE) = -0.948
+r(V, PE) = -0.870
+r(AP, PE) = 0.518
+r(RH, PE) = 0.390
+
+=== Section 5: models ===
+training rows: 7654  test rows: 1914
+baseline: training mean PE = 454.44 MW, test MAE = 14.72 MW
+line from AT: PE = -2.175*AT + 497.13, test MAE = 4.33 MW
+line from V:  PE = -1.1677*V + 517.78, test MAE = 6.49 MW
+hand check: file line 7656, V = 35.77 cm Hg, predicted 476.01 MW, true 483.12 MW, |error| 7.11 MW
