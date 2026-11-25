@@ -1,6 +1,6 @@
 # EEE213 Term Project — [Your Name]
 
-*Method #[N]: [method name] · Numerical problem #[N]: [problem name]*
+*Method #2: Polynomial regression · Numerical problem #2: Two-diode circuit (Newton, 2×2 Jacobian)*
 
 ## Abstracts
 **Numerical problem.** (Week 14: problem, method, result, limitation.)
