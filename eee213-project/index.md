@@ -1,4 +1,4 @@
-# EEE213 Term Project — [Your Name]
+# EEE213 Term Project — Mustafa Okuducu
 
 *Method #2: Polynomial regression · Numerical problem #2: Two-diode circuit (Newton, 2×2 Jacobian)*
 
